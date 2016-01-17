@@ -9,7 +9,7 @@
 <p>“<span class=text>{{ text|safe }}</span>”</p>
 <hr>
 <p class=info><span class=question>What is this? </span>The Freedom Generator is a Python-based sentence generator that uses Markov chains to model the statements of the GOP Presidential Candidates. It was created by Ethan Bailey.</p>
-<p class=info><span class=question>How is it written? </span>The generator uses the markovify Python library to create the models, and the text data is taken from The American Presidency Project's transcripts of the GOP presidential debates. You can find the data <a href="http://www.presidency.ucsb.edu/debates.php">here.</a></p>
+<p class=info><span class=question>How is it written? </span>The generator uses the <a href="https://github.com/jsvine/markovify">markovify</a> Python library to create the models, and the text data is taken from The American Presidency Project's transcripts of the GOP presidential debates. You can find the data <a href="http://www.presidency.ucsb.edu/debates.php">here.</a></p>
 </div>
 <script>$SCRIPT_ROOT = {{ request.script_root|tojson|safe }};</script>
 <script src="{{ url_for('static', filename='jquery.min.js') }}"></script>
