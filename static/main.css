@@ -1,0 +1,50 @@
+body, html {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+h1 {
+	margin-left: 120px;
+	font-family: monospace;
+	font-size: 36pt;
+	color: #A82323;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #A82323;
+    background-image: linear-gradient(to right, #ccc, #A82323, #ccc);
+}
+a {
+	color: #A82323;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.info {
+	font-size: 10pt;
+}
+.page {
+	margin: 2em auto;
+	width: 70em;
+    padding: 0.8em;
+}
+.question {
+	font-weight: 900;
+}
+#generate {
+	display: block;
+	margin-top: 15px;
+	margin-right: 120px;
+	width: 15em;
+	height: 3em;
+	background-color: white;
+	border-radius: 10px;
+	border: 1px #A82323 solid;
+	float: right;
+}
+#generate:active {
+	border: 1px #5E1414 solid;
+}
+#generate:focus {
+	outline: 0;
+}
