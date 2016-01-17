@@ -41,6 +41,7 @@ a:hover {
 	border-radius: 10px;
 	border: 1px #A82323 solid;
 	float: right;
+	cursor: pointer;
 }
 #generate:active {
 	border: 1px #5E1414 solid;
