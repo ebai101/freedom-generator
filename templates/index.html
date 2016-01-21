@@ -9,20 +9,20 @@
 <p>“<span class=text>{{ text|safe }}</span>”</p>
 <hr>
 <p class=info><span class=question>What is this? </span>The Freedom Generator is a Python-based sentence generator that uses Markov chains to model the statements of the GOP Presidential Candidates. It was created by Ethan Bailey.</p>
-<p class=info><span class=question>How is it written? </span>The generator uses the <a href="https://github.com/jsvine/markovify">markovify</a> Python library to create the models, and the text data is taken from The American Presidency Project's transcripts of the GOP presidential debates. You can find the data <a href="http://www.presidency.ucsb.edu/debates.php">here.</a></p>
-<div class="a2a_kit a2a_kit_size_24 a2a_default_style">
+<p class=info><span class=question>How is it written? </span>The generator uses the <a href="https://github.com/jsvine/markovify">markovify</a> Python library to create the models, and the text data is taken from The American Presidency Project's transcripts of the GOP presidential debates. You can find the data <a href="http://www.presidency.ucsb.edu/debates.php">here.</a> The source code is on <a href="https://github.com/ebai101/freedom-generator">Github</a> if you're into that.</p>
+<div class=footer>
+<hr>
+<span class=copyright>&copy; Ethan Bailey 2016.</span>
+<span class="a2a_kit a2a_kit_size_24 a2a_default_style">
 <a class="a2a_button_facebook"></a>
 <a class="a2a_button_twitter"></a>
 <a class="a2a_button_google_plus"></a>
 <a class="a2a_dd" href="https://www.addtoany.com/share?linkurl=https%3A%2F%2Ffreedomgenerator.herokuapp.com%2F&amp;linkname=Freedom%20Generator"></a>
+</span>
 </div>
-<script type="text/javascript">
-var a2a_config = a2a_config || {};
-a2a_config.linkname = "Freedom Generator";
-a2a_config.linkurl = "https://freedomgenerator.herokuapp.com/";
-</script>
-<script type="text/javascript" src="//static.addtoany.com/menu/page.js"></script>
 </div>
 <script>$SCRIPT_ROOT = {{ request.script_root|tojson|safe }};</script>
+<script src="{{ url_for('static', filename='a2a.js') }}"></script>
+<script src="//static.addtoany.com/menu/page.js"></script>
 <script src="{{ url_for('static', filename='jquery.min.js') }}"></script>
 <script src="{{ url_for('static', filename='gettext.js') }}"></script>

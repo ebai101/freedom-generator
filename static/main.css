@@ -28,6 +28,15 @@ a:hover {
 	width: 70em;
     padding: 0.8em;
 }
+.footer {
+	width: 70em;
+}
+.copyright {
+	font-size: 10pt;
+}
+.a2a_kit {
+	float: right;
+}
 .question {
 	font-weight: 900;
 }
@@ -44,7 +53,7 @@ a:hover {
 	cursor: pointer;
 }
 #generate:active {
-	border: 1px #5E1414 solid;
+	border: 2pt #A82323 solid;
 }
 #generate:focus {
 	outline: 0;
