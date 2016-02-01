@@ -11,7 +11,6 @@ hr {
     border: 0;
     height: 1px;
     background: #A82323;
-    background-image: linear-gradient(to right, #ccc, #A82323, #ccc);
 }
 a {
 	color: #A82323;
